@@ -1,0 +1,19 @@
+language: c
+language: r
+
+os:
+  - linux
+  - osx
+  
+sudo: required
+
+install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install gnu-sed --with-default-names  ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then R -e "install.packages('XML', repos = 'http://cran.rstudio.com/')" ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get update -y && sudo apt-get install r-cran-xml -y ; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget `curl https://api.github.com/repos/jgm/pandoc/releases/latest | jq -r '.assets[] | .browser_download_url | select(endswith("deb"))'` -O pandoc.deb && sudo dpkg -i pandoc.deb && rm pandoc.deb ; fi
+  - rm -f README.md ReproducibleResearch.ctv ReproducibleResearch.html
+
+script: make
+
