@@ -147,7 +147,7 @@
     <h2>Pipeline Toolkits</h2>
 
 <p>
-    At a more basic level than scientific replicability, literate programming, and version control, reproducibility carries an implicit promise that the alleged results of an analysis really do match the code. Pipeline toolkits help keep this promise by tracking the relationships among the components of the analysis and reacting to changes in the dependencies. They can also carry <a href="https://cran.r-project.org/web/views/ReproducibleResearch.html">high-performance computing</a> benefits such as implicit parallelism and the ability to automatically skip computations that are already up to date. The <pkg>drake</pkg> package is an R-focused pipeline toolkit with all these benefits.
+    At a more basic level than scientific replicability, literate programming, and version control, reproducibility carries an implicit promise that the alleged results of an analysis really do match the code. Pipeline toolkits help keep this promise by tracking the relationships among the components of the analysis and reacting to changes in the dependencies. Some even carry <a href="https://cran.r-project.org/web/views/ReproducibleResearch.html">high-performance computing</a> benefits such as implicit parallelism and the ability to automatically skip computations that are already up to date. The <pkg>drake</pkg> package is an R-focused pipeline toolkit with all these benefits.
 </p>
 <p>
 The general approach of a <a href="https://github.com/pditommaso/awesome-pipeline">pipline toolkit</a> is ubiquitous in the Python world, and it is starting to gain traction in the R community, particularly in the <a href="https://peerj.com/preprints/3210/">opinionated analysis development paradigm</a>.
