@@ -141,6 +141,34 @@
    </ul>  
 
    <h1>
+     Research compendia
+   </h1>
+   <p>
+      Beyond having the a core document following the literate programming paradigm, reproducibility can be supported by organizing a digital workspace in a specific way, e.g. by <a href="https://speakerdeck.com/jennybc/how-to-name-files">using reasonable names for files</a>, following conventions (often based on templates), and by applying a specific routine, such as writing a digital lab notebook. Temple Lang and Gentlemen <a href="https://doi.org/10.1198/106186007X178663">coined the term research compendium</a> for such a structure.
+   </p>
+   <p>
+      A useful introduction to research compendia and a convention for their structure is given by <a href="https://github.com/ropensci/rrrpkg">this ROpenSci essay</a>. It also links to the following templates.
+   </p>
+
+    <h2>Templates</h2>
+
+        <ul>
+          <li>
+            Jeffrey Hollister's <a href="https://github.com/jhollist/manuscriptPackage">manuscriptPackage</a>, Carl Boettiger's <a href="https://github.com/cboettig/template">template</a>, and Ben Marwick's <a href="https://github.com/benmarwick/researchcompendium">template</a> follow the R package structure to provide a familiar layout. Boettiger takes advantage of automation based on <pkg>devtools</pkg> and both Boettiger and Marwick utilize continuous integration.
+          </li>
+          <li>
+            Francisco Rodriguez-Sanchez's <a href="https://github.com/Pakillo/template">template</a> comes as an R package providing a scaffolding function.
+          </li>                                        
+        </ul>
+
+    <h2>Notebooks</h2>
+    <p>
+      Carl Boettiger describes <a href="https://www.practicereproducibleresearch.org/case-studies/cboettig.html">his notebook approach</a> based on R Markdown in a case study in the book <i>The Practice of Reproducible Research</i>.
+
+      RStudio supports <a href="">R Notebooks</a>, which render the source document into a self-contained, sharable HTML file, which includes the 
+    </p>
+
+   <h1>
      Miscellaneous Tools
    </h1>     
 
