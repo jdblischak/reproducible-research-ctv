@@ -84,7 +84,7 @@
       Markdown
     </h2>
       <p>
-        The <pkg>knitr</pkg> package can process markdown files without assistance. The packages  <pkg>markdown</pkg> and <pkg>rmarkdown</pkg> have general tools for working with documents in this format. <pkg>Kmisc</pkg> and <pkg>lazyWeave</pkg> can create markdown format documents from scratch. Also, the <pkg>ascii</pkg> package can write R objects to the <a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a> format. 
+        The <pkg>knitr</pkg> package can process markdown files without assistance. The packages  <pkg>markdown</pkg> and <pkg>rmarkdown</pkg> have general tools for working with documents in this format. <pkg>Kmisc</pkg> and <pkg>lazyWeave</pkg> can create markdown format documents from scratch. The <pkg>workflowr</pkg> combines literate programming (<pkg>knitr</pkg> and <pkg>rmarkdown</pkg>) and version control (Git, via <pkg>git2r</pkg>) to generate a website containing time-stamped, versioned, and documented results. Also, the <pkg>ascii</pkg> package can write R objects to the <a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a> format.
       </p>
       <p>
         Object Conversion Functions:
@@ -196,7 +196,8 @@ The general approach of a <a href="https://github.com/pditommaso/awesome-pipelin
     <pkg>DT</pkg>
     <pkg>exams</pkg>
     <pkg>formatR</pkg>
-    <pkg>formattable</pkg>   
+    <pkg>formattable</pkg>
+    <pkg>git2r</pkg>
     <pkg>highlight</pkg>    
     <pkg>highr</pkg>      
     <pkg>htmlTable</pkg>
@@ -252,6 +253,7 @@ The general approach of a <a href="https://github.com/pditommaso/awesome-pipelin
     <pkg>tikzDevice</pkg>
     <pkg>tth</pkg>
     <pkg>tufterhandout</pkg>
+    <pkg>workflowr</pkg>
     <pkg priority="core">xtable</pkg>
     <pkg>ztable</pkg>
   </packagelist>
