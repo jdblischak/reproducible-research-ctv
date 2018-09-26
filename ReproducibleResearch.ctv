@@ -51,7 +51,10 @@
         <ul>
           <li>
             <pkg>Hmisc</pkg> contains a function to correctly escape special characters. <pkg>resumer</pkg> creates resumes. Standardized exams can be created using the <pkg>exams</pkg> package.
-          </li>                                                   
+          </li>      
+          <li>
+            <pkg>Sim.DiffProc</pkg> contains a simple utility writing like <i>TEX.sde()<\i> produces the related LaTeX code (constructing tables and mathematical expressions) for <pkg>Sim.DiffProc</pkg> environment, which can be copied and pasted into the '.tex' document.
+          </li> 
         </ul> 
    <h2>
       HTML
