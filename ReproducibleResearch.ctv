@@ -27,7 +27,7 @@
       </p>
         <ul>
           <li>
-            <i>summary tables/statistics</i>: <pkg>Hmisc</pkg>, <pkg>NMOF</pkg>, <pkg>papeR</pkg>, <pkg>quantreg</pkg>, <pkg>rapport</pkg>, <pkg>reporttools</pkg>, <pkg>sparktex</pkg>, <pkg>tables</pkg>,<pkg>xtable</pkg>, <pkg>ztable</pkg>
+            <i>summary tables/statistics</i>: <pkg>Hmisc</pkg>, <pkg>NMOF</pkg>, <pkg>papeR</pkg>, <pkg>quantreg</pkg>, <pkg>rapport</pkg>, <pkg>reporttools</pkg>, <pkg>sparktex</pkg>, <pkg>tables</pkg>,<pkg>xtable</pkg>, <pkg>ztable</pkg>, <pkg>export</pkg>
           </li>    
           <li>
             <i>tables/cross-tabulations</i>: <pkg>compareGroups</pkg>, <pkg>Hmisc</pkg>, <pkg>lazyWeave</pkg>, <pkg>knitLatex</pkg>, <pkg>knitr</pkg>, <pkg>reporttools</pkg>, <pkg>ztable</pkg>
@@ -64,7 +64,7 @@
       </p>
         <ul>
           <li>
-            <i>summary tables/statistics</i>: <pkg>stargazer</pkg>
+            <i>summary tables/statistics</i>: <pkg>stargazer</pkg>, <pkg>export</pkg>
           </li>    
           <li>
             <i>tables/cross-tabulations</i>: <pkg>compareGroups</pkg>, <pkg>DT</pkg>,  <pkg>formattable</pkg>, <pkg>htmlTable</pkg>, <pkg>HTMLUtils</pkg>, <pkg>hwriter</pkg>, <pkg>Kmisc</pkg>, <pkg>knitr</pkg>, <pkg>lazyWeave</pkg>, <pkg>SortableHTMLTables</pkg>, <pkg>texreg</pkg>, <pkg>ztable</pkg>
@@ -111,7 +111,7 @@
       OpenDocument Format (ODF)
     </h2>
       <p>
-        The <pkg>odfWeave</pkg> package can process ODF files.  
+        The <pkg>odfWeave</pkg> package can process ODF files. 
       </p>
       <p>
         Object Conversion Functions:
@@ -126,7 +126,7 @@
         </ul>  
 
    <h2>
-    Microsoft Formats
+    Microsoft/LibreOffice Formats
    </h2>
    <p>
     The <pkg>officer</pkg> package can create <tt>docx</tt> and <tt>pptx</tt> files.  <pkg>R2wd</pkg> (windows only) can also create Word documents from scratch and <pkg>R2PPT</pkg> (also windows only) can create PowerPoint slides. The <pkg>rtf</pkg> package does the same for Rich Text Format documents. The <pkg>openxlsx</pkg> package creates <tt>xlsx</tt> files. The <pkg>export</pkg> package is built on top of <pkg>officer</pkg> and <pkg>openxlsx</pkg> and saves tables and graphical output to Word, PowerPoint, and Excel documents.
