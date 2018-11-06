@@ -129,14 +129,20 @@
     Microsoft Formats
    </h2>
    <p>
-    The <pkg>ReporteRs</pkg> (formerly R2DOCX) package can create <tt>docx</tt> and <tt>pptx</tt> files.  <pkg>R2wd</pkg> (windows only) can also create Word documents from scratch and <pkg>R2PPT</pkg> (also windows only) can create PowerPoint slides. The <pkg>rtf</pkg> package does the same for Rich Text Format documents. 
+    The <pkg>officer</pkg> package can create <tt>docx</tt> and <tt>pptx</tt> files.  <pkg>R2wd</pkg> (windows only) can also create Word documents from scratch and <pkg>R2PPT</pkg> (also windows only) can create PowerPoint slides. The <pkg>rtf</pkg> package does the same for Rich Text Format documents. The <pkg>openxlsx</pkg> package creates <tt>xlsx</tt> files. The <pkg>export</pkg> package is built on top of <pkg>officer</pkg> and <pkg>openxlsx</pkg> and saves tables and graphical output to Word, PowerPoint, and Excel documents.
    </p>
    <p>
     Object Conversion Functions:
    </p>
    <ul>   
     <li>
-      <i>tables/cross-tabulations</i>: <pkg>apaStyle</pkg>
+      <i>tables/cross-tabulations</i>: <pkg>apaStyle</pkg>, <pkg>export</pkg>
+    </li>
+    <li>
+      <i>graphics</i>: <pkg>mschart</pkg>, <pkg>export</pkg>
+    </li>
+    <li>
+      <i>summary tables/statistics</i>: <pkg>export</pkg>
     </li>
    </ul>  
 
@@ -195,6 +201,7 @@ The general approach of a <a href="https://github.com/pditommaso/awesome-pipelin
     <pkg>drake</pkg>
     <pkg>DT</pkg>
     <pkg>exams</pkg>
+    <pkg>export</pkg>
     <pkg>formatR</pkg>
     <pkg>formattable</pkg>   
     <pkg>highlight</pkg>    
@@ -219,6 +226,8 @@ The general approach of a <a href="https://github.com/pditommaso/awesome-pipelin
     <pkg>NMOF</pkg>
     <pkg>odfWeave</pkg>
     <pkg>odfWeave.survey</pkg>
+    <pkg>officer</pkg>
+    <pkg>openxlsx</pkg>
     <pkg>packrat</pkg>       
     <pkg>pander</pkg>
     <pkg>papeR</pkg>
@@ -234,7 +243,6 @@ The general approach of a <a href="https://github.com/pditommaso/awesome-pipelin
     <pkg>rbundler</pkg>
     <pkg>RefManageR</pkg>
     <pkg>reporttools</pkg>    
-    <pkg>ReporteRs</pkg>
     <pkg>resumer</pkg>
     <pkg>rmarkdown</pkg>
     <pkg priority="core">rms</pkg>
