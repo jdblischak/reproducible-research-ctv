@@ -2,12 +2,21 @@
 
   <name>ReproducibleResearch</name>
   <topic>Reproducible Research</topic>
-  <maintainer email="mxkuhn@gmail.com">Max Kuhn</maintainer>
-  <version>2016-11-19</version>
+  <maintainer email="alison@rstudio.com">Alison Hill, Max Kuhn, John Blischak</maintainer>
+  <version>2019-08-08</version>
 
   <info>
     <p>
       The goal of reproducible research is to tie specific instructions to data analysis and experimental data so that scholarship can be recreated, better understood and verified. Packages in R for this purpose can be split into groups for: literate programming, pipeline toolkits, package reproducibility, project workflows, code/data formatting tools, format convertors, and object caching.
+    </p>
+
+    <p>
+      The maintainers gratefully acknowledge
+      <a href="https://github.com/annakrystalli">Anna Krystalli</a>,
+      <a href="https://github.com/wlandau"> Will Landau</a>,
+      <a href="https://github.com/benmarwick">Ben Marwick</a>, and
+      <a href="https://github.com/nuest">Daniel Nüst</a>
+      for their useful feedback and contributions.
     </p>
     <h1>Literate Programming</h1>
     <p>
