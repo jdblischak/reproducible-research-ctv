@@ -7,7 +7,7 @@
 
   <info>
     <p>
-      The goal of reproducible research is to tie specific instructions to data analysis and experimental data so that scholarship can be recreated, better understood and verified. Packages in R for this purpose can be split into groups for: literate programming, pipeline toolkits, package reproducibility, code/data formatting tools, format convertors, and object caching.
+      The goal of reproducible research is to tie specific instructions to data analysis and experimental data so that scholarship can be recreated, better understood and verified. Packages in R for this purpose can be split into groups for: literate programming, pipeline toolkits, package reproducibility, project workflows, code/data formatting tools, format convertors, and object caching.
     </p>
     <h1>Literate Programming</h1>
     <p>
@@ -151,6 +151,48 @@
      R also has tools for ensuring that specific packages versions can be required for analyses. <pkg>checkpoint</pkg>, <pkg>rbundler</pkg> and <pkg>packrat</pkg> install packages required for a project to a local archive as they existed at a specified point in time. This allows specific package versions to be maintained over time and different users. The <pkg>miniCRAN</pkg> package facilitates the creation of local CRAN-like repositories.
    </p>
 
+
+    <h1>Project Workflows</h1>
+    <p>
+      Successfully completing a data analysis project often requires much more than statistics and visualizations.
+      Efficiently managing the code, data, and results as the project matures helps reduce stress and errors.
+      The following "workflow" packages assist the R programmer by managing project infrastructure and/or facilitating a reproducible workflow.
+    </p>
+
+    <p>
+      Workflow utility packages provide single-use functions to implement project infrastructure or solve a specific problem.
+      As a typical example, <code>usethis::use_git()</code> initializes a Git repository, ignores common R files, and commits all project files.
+    </p>
+    <ul>
+      <li><pkg>here</pkg></li>
+      <li><pkg>prodigenr</pkg></li>
+      <li><pkg>RepoGenerator</pkg></li>
+      <li>rrtools (<a href="https://github.com/benmarwick/rrtools">GitHub only</a>)</li>
+      <li>starters (<a href="https://github.com/lockedata/starters">GitHub only</a>)</li>
+      <li><pkg>usethis</pkg></li>
+    </ul>
+
+    <p>
+      Workflow framework packages provide an organized directory structure and helper functions to assist during the development of the project.
+      As a typical example, <code>ProjectTemplate::create.project()</code> creates an organized setup with many subdirectories,
+      and <code>ProjectTemplate::run.project()</code> executes each R script that is saved in the <code>src/</code> subdirectory.
+    </p>
+    <ul>
+      <li><pkg>adapr</pkg></li>
+      <li><pkg>DataPackageR</pkg></li>
+      <li><pkg>exreport</pkg></li>
+      <li><pkg>madrat</pkg></li>
+      <li><pkg>makeProject</pkg></li>
+      <li><pkg>projects</pkg></li>
+      <li><pkg>ProjectTemplate</pkg></li>
+      <li><pkg>reports</pkg></li>
+      <li><pkg>represtools</pkg></li>
+      <li><pkg>RSuite</pkg></li>
+      <li><pkg>tinyProject</pkg></li>
+      <li><pkg>workflowr</pkg></li>
+      <li><pkg>zoon</pkg></li>
+    </ul>
+
    <h1>Formatting Tools</h1>
    <p>
     <pkg>formatR</pkg>, <pkg>highlight</pkg>, <pkg>highr</pkg>, and <pkg>SweaveListingUtils</pkg> can be used to color and/or format R code.
@@ -175,6 +217,7 @@
   </info>
 
   <packagelist>
+    <pkg>adapr</pkg>
     <pkg>animation</pkg>
     <pkg>apaStyle</pkg>
     <pkg>apsrtable</pkg>
@@ -185,11 +228,14 @@
     <pkg>checkpoint</pkg>
     <pkg>compareGroups</pkg>
     <pkg>connect3</pkg>
+    <pkg>DataPackageR</pkg>
     <pkg>drake</pkg>
     <pkg>DT</pkg>
     <pkg>exams</pkg>
+    <pkg>exreport</pkg>
     <pkg>formatR</pkg>
     <pkg>formattable</pkg>
+    <pkg>here</pkg>
     <pkg>highlight</pkg>
     <pkg>highr</pkg>
     <pkg>htmlTable</pkg>
@@ -198,6 +244,7 @@
     <pkg>humanFormat</pkg>
     <pkg>hwriter</pkg>
     <pkg priority="core">Hmisc</pkg>
+    <pkg>prodigenr</pkg>
     <pkg>latex2exp</pkg>
     <pkg>lazyWeave</pkg>
     <pkg>lubridate</pkg>
@@ -206,6 +253,8 @@
     <pkg>knitcitations</pkg>
     <pkg>knitLatex</pkg>
     <pkg priority="core">knitr</pkg>
+    <pkg>madrat</pkg>
+    <pkg>makeProject</pkg>
     <pkg>markdown</pkg>
     <pkg>memisc</pkg>
     <pkg>miniCRAN</pkg>
@@ -216,6 +265,8 @@
     <pkg>pander</pkg>
     <pkg>papeR</pkg>
     <pkg>prettyunits</pkg>
+    <pkg>projects</pkg>
+    <pkg>ProjectTemplate</pkg>
     <pkg>quantreg</pkg>
     <pkg>R.cache</pkg>
     <pkg>R.rsp</pkg>
@@ -226,12 +277,16 @@
     <pkg>rapport</pkg>
     <pkg>rbundler</pkg>
     <pkg>RefManageR</pkg>
+    <pkg>RepoGenerator</pkg>
+    <pkg>reports</pkg>
     <pkg>reporttools</pkg>
     <pkg>ReporteRs</pkg>
+    <pkg>represtools</pkg>
     <pkg>resumer</pkg>
     <pkg>rmarkdown</pkg>
     <pkg priority="core">rms</pkg>
     <pkg>rprintf</pkg>
+    <pkg>RSuite</pkg>
     <pkg>rtf</pkg>
     <pkg>SortableHTMLTables</pkg>
     <pkg>sparktex</pkg>
@@ -243,9 +298,13 @@
     <pkg>TeachingSampling</pkg>
     <pkg>texreg</pkg>
     <pkg>tikzDevice</pkg>
+    <pkg>tinyProject</pkg>
     <pkg>tth</pkg>
     <pkg>tufterhandout</pkg>
+    <pkg>usethis</pkg>
+    <pkg>workflowr</pkg>
     <pkg priority="core">xtable</pkg>
+    <pkg>zoon</pkg>
     <pkg>ztable</pkg>
   </packagelist>
 
