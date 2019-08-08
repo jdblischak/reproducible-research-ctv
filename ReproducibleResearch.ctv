@@ -332,6 +332,9 @@
     <a href="http://www.R-project.org/doc/Rnews/Rnews_2008-1.pdf">Gorjanc: Using Sweave with LyX</a>
     <a href="http://www.R-project.org/doc/Rnews/Rnews_2003-3.pdf">Lecoutre: The R2HTML Package</a>
     <a href="https://github.com/wlandau/awesome-pipeline/blob/master/README.md">List of pipeline toolkits</a>
+    <a href="https://github.com/o2r-project/ctv-computational-environments#readme">Computational Environments and Reproducibility</a>
+    <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Project-oriented workflow by Jenny Bryan</a>
+    <a href="https://ropensci.github.io/reproducibility-guide/">rOpenSci: Reproducibility in Science</a>
   </links>
 
 </CRANTaskView>
