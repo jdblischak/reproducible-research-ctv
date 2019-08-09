@@ -2,7 +2,7 @@
 
   <name>ReproducibleResearch</name>
   <topic>Reproducible Research</topic>
-  <maintainer email="alison@rstudio.com">Alison Hill, Max Kuhn, John Blischak</maintainer>
+  <maintainer email="alison@rstudio.com">Alison Hill, John Blischak</maintainer>
   <version>2019-08-08</version>
 
   <info>
@@ -13,6 +13,7 @@
     <p>
       The maintainers gratefully acknowledge
       <a href="https://github.com/annakrystalli">Anna Krystalli</a>,
+      <a href="https://github.com/topepo">Max Kuhn</a>,
       <a href="https://github.com/wlandau"> Will Landau</a>,
       <a href="https://github.com/benmarwick">Ben Marwick</a>, and
       <a href="https://github.com/nuest">Daniel Nüst</a>
