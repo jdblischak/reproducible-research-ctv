@@ -156,8 +156,8 @@
 </p>
 
 <ul>
-  <li><pkg>drake</pkg></li>
-  <li><pkg>repo</pkg></li>
+  <li><pkg>drake</pkg>: A general-purpose computational engine for data analysis, drake rebuilds intermediate data objects when their dependencies change, and it skips work when the results are already up to date.</li>
+  <li><pkg>repo</pkg>: A data manager meant to avoid manual storage/retrieval of data to/from the file system.</li>
 </ul>
 
    <h1>Package Reproducibility</h1>
@@ -178,12 +178,12 @@
       As a typical example, <code>usethis::use_git()</code> initializes a Git repository, ignores common R files, and commits all project files.
     </p>
     <ul>
-      <li><pkg>here</pkg></li>
-      <li><pkg>prodigenr</pkg></li>
-      <li><pkg>RepoGenerator</pkg></li>
-      <li>rrtools (<a href="https://github.com/benmarwick/rrtools">GitHub only</a>)</li>
-      <li>starters (<a href="https://github.com/lockedata/starters">GitHub only</a>)</li>
-      <li><pkg>usethis</pkg></li>
+      <li><pkg>here</pkg>: Constructs paths to your project's files.</li>
+      <li><pkg>prodigenr</pkg>: Create a project directory structure, along with typical files for that project.</li>
+      <li><pkg>RepoGenerator</pkg>: Generates a project and repo for easy initialization of a GitHub repo for R workshops.</li>
+      <li>rrtools (<a href="https://github.com/benmarwick/rrtools">GitHub only</a>): Instructions, templates, and functions for making a basic compendium suitable for doing reproducible research with R.</li>
+      <li>starters (<a href="https://github.com/lockedata/starters">GitHub only</a>): Setting up R project directories for teaching, presenting, analysis, package development can be a pain. starters shortcuts this by creating folder structures and setting good defaults for you.</li>
+      <li><pkg>usethis</pkg>: Automate package and project setup tasks that are otherwise performed manually.</li>
     </ul>
 
     <p>
@@ -192,19 +192,19 @@
       and <code>ProjectTemplate::run.project()</code> executes each R script that is saved in the <code>src/</code> subdirectory.
     </p>
     <ul>
-      <li><pkg>adapr</pkg></li>
-      <li><pkg>DataPackageR</pkg></li>
-      <li><pkg>exreport</pkg></li>
-      <li><pkg>madrat</pkg></li>
-      <li><pkg>makeProject</pkg></li>
-      <li><pkg>projects</pkg></li>
-      <li><pkg>ProjectTemplate</pkg></li>
-      <li><pkg>reports</pkg></li>
-      <li><pkg>represtools</pkg></li>
-      <li><pkg>RSuite</pkg></li>
-      <li><pkg>tinyProject</pkg></li>
-      <li><pkg>workflowr</pkg></li>
-      <li><pkg>zoon</pkg></li>
+      <li><pkg>adapr</pkg>: Tracks reading and writing within R scripts that are organized into a directed acyclic graph.</li>
+      <li><pkg>DataPackageR</pkg>: A framework to help construct R data packages in a reproducible manner.</li>
+      <li><pkg>exreport</pkg>: Analysis of experimental results and automatic report generation in both interactive HTML and LaTeX.</li>
+      <li><pkg>madrat</pkg>: Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation.</li>
+      <li><pkg>makeProject</pkg>: This package creates an empty framework of files and directories for the "Load, Clean, Func, Do" structure described by Josh Reich.</li>
+      <li><pkg>projects</pkg>: Provides a project infrastructure with a focus on manuscript creation.</li>
+      <li><pkg>ProjectTemplate</pkg>: Provides functions to automatically build a directory structure for a new R project. Using this structure, 'ProjectTemplate' automates data loading, preprocessing, library importing and unit testing.</li>
+      <li><pkg>reports</pkg>: Assists in writing reports and presentations by providing a frame work that brings together existing R, LaTeX/.docx and Pandoc tools.</li>
+      <li><pkg>represtools</pkg>: Reproducible research tools automates the creation of an analysis directory structure and work flow. There are R markdown skeletons which encapsulate typical analytic work flow steps. Functions will create appropriate modules which may pass data from one step to another.</li>
+      <li><pkg>RSuite</pkg>: Supports safe and reproducible solutions development in R. It will help you with environment separation per project, dependency management, local packages creation and preparing deployment packs for your solutions.</li>
+      <li><pkg>tinyProject</pkg>: Creates useful files and folders for data analysis projects and provides functions to manage data, scripts and output files.</li>
+      <li><pkg>workflowr</pkg>: Provides a workflow for your analysis projects by combining literate programming ('knitr' and 'rmarkdown') and version control ('Git', via 'git2r') to generate a website containing time-stamped, versioned, and documented results.</li>
+      <li><pkg>zoon</pkg>: Reproducible and remixable species distribution modelling.</li>
     </ul>
 
    <h1>Formatting Tools</h1>
