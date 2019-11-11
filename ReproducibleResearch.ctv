@@ -179,6 +179,7 @@
       As a typical example, <code>usethis::use_git()</code> initializes a Git repository, ignores common R files, and commits all project files.
     </p>
     <ul>
+      <li><pkg>cabinets</pkg>: Creates project specific directory and file templates that are written to a .Rprofile file.</li>
       <li><pkg>here</pkg>: Constructs paths to your project's files.</li>
       <li><pkg>prodigenr</pkg>: Create a project directory structure, along with typical files for that project.</li>
       <li><pkg>RepoGenerator</pkg>: Generates a project and repo for easy initialization of a GitHub repo for R workshops.</li>
@@ -198,6 +199,7 @@
       <li><pkg>exreport</pkg>: Analysis of experimental results and automatic report generation in both interactive HTML and LaTeX.</li>
       <li><pkg>madrat</pkg>: Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation.</li>
       <li><pkg>makeProject</pkg>: This package creates an empty framework of files and directories for the "Load, Clean, Func, Do" structure described by Josh Reich.</li>
+      <li><pkg>orderly</pkg>: Order, create and store reports from R.</li>
       <li><pkg>projects</pkg>: Provides a project infrastructure with a focus on manuscript creation.</li>
       <li><pkg>ProjectTemplate</pkg>: Provides functions to automatically build a directory structure for a new R project. Using this structure, 'ProjectTemplate' automates data loading, preprocessing, library importing and unit testing.</li>
       <li><pkg>reports</pkg>: Assists in writing reports and presentations by providing a frame work that brings together existing R, LaTeX/.docx and Pandoc tools.</li>
