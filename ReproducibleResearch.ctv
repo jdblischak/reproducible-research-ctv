@@ -226,6 +226,7 @@
     <pkg>archivist</pkg>
     <pkg>bibtex</pkg>
     <pkg>brew</pkg>
+    <pkg>cabinets</pkg>
     <pkg>checkpoint</pkg>
     <pkg>DataPackageR</pkg>
     <pkg>drake</pkg>
@@ -257,6 +258,7 @@
     <pkg>memisc</pkg>
     <pkg>miniCRAN</pkg>
     <pkg>NMOF</pkg>
+    <pkg>orderly</pkg>
     <pkg>packrat</pkg>
     <pkg>pander</pkg>
     <pkg>papeR</pkg>
@@ -272,6 +274,7 @@
     <pkg>rapport</pkg>
     <pkg>rbundler</pkg>
     <pkg>RefManageR</pkg>
+    <pkg>renv</pkg>
     <pkg>repo</pkg>
     <pkg>RepoGenerator</pkg>
     <pkg>reports</pkg>
