@@ -258,13 +258,12 @@
     <pkg>here</pkg>
     <pkg>highlight</pkg>
     <pkg>highr</pkg>
+    <pkg priority="core">Hmisc</pkg>
     <pkg>htmlTable</pkg>
     <pkg>htmltools</pkg>
     <pkg>HTMLUtils</pkg>
     <pkg>humanFormat</pkg>
     <pkg>hwriter</pkg>
-    <pkg priority="core">Hmisc</pkg>
-    <pkg>prodigenr</pkg>
     <pkg>latex2exp</pkg>
     <pkg>lazyWeave</pkg>
     <pkg>liftr</pkg>
@@ -287,6 +286,7 @@
     <pkg>pander</pkg>
     <pkg>papeR</pkg>
     <pkg>prettyunits</pkg>
+    <pkg>prodigenr</pkg>
     <pkg>projects</pkg>
     <pkg>ProjectTemplate</pkg>
     <pkg>quantreg</pkg>
@@ -347,7 +347,7 @@
     <a href="http://www.R-project.org/doc/Rnews/Rnews_2003-3.pdf">Lecoutre: The R2HTML Package</a>
     <a href="https://github.com/wlandau/awesome-pipeline/blob/master/README.md">List of pipeline toolkits</a>
     <a href="https://github.com/o2r-project/ctv-computational-environments#readme">Computational Environments and Reproducibility</a>
-    <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Project-oriented workflow by Jenny Bryan</a>
+    <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">Bryan: Project-oriented workflow</a>
     <a href="https://ropensci.github.io/reproducibility-guide/">rOpenSci: Reproducibility in Science</a>
     <a href="https://doi.org/10.1198/106186007X178663">Temple Lang, Gentleman: Statistical Analyses and Reproducible Research</a>
     <a href="https://doi.org/10.1080/00031305.2017.1375986">Marwick, Boettiger, Mullen: Packaging Data Analytical Work Reproducibly Using R (and Friends)</a>
