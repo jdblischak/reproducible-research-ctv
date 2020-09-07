@@ -34,6 +34,11 @@
         Both <code>Sweave</code> and <pkg>knitr</pkg> can process LaTeX files. <pkg>lazyWeave</pkg> can create LaTeX documents from scratch.
       </p>
       <p>
+        The <pkg>knitr</pkg> and <pkg>rmarkdown</pkg> packages (along with
+         <a href="https://pandoc.org/">pandoc</a>) can be used to create slides
+         using the LaTeX <a href="https://ctan.org/pkg/beamer">beamer</a> class.
+      </p>
+      <p>
         Object Conversion Functions:
       </p>
         <ul>
@@ -69,6 +74,17 @@
     </h2>
       <p>
         The <pkg>knitr</pkg> package can process HTML files directly.  <code>Sweave</code> can also work with HTML by way of the <pkg>R2HTML</pkg> package. <pkg>lazyWeave</pkg> can create HTML format documents from scratch.
+      </p>
+      <p>
+        For HTML slides, a combination of the <pkg>knitr</pkg> and
+        <pkg>rmarkdown</pkg> packages (along with <a
+        href="https://pandoc.org/">pandoc</a>) can be used to create slides
+        using <a
+        href="https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html">ioslides</a>,
+        <a href="https://revealjs.com/">reveal.js</a>, <a
+        href="https://www.w3.org/Talks/Tools/Slidy2/">Slidy</a>, or <a
+        href="https://remark.js.org/">remark.js</a> (from the
+        <pkg>xaringan</pkg> package).
       </p>
       <p>
         Object Conversion Functions:
@@ -317,6 +333,7 @@
     <pkg>tufterhandout</pkg>
     <pkg>usethis</pkg>
     <pkg>workflowr</pkg>
+    <pkg>xaringan</pkg>
     <pkg priority="core">xtable</pkg>
     <pkg>zoon</pkg>
     <pkg>ztable</pkg>
