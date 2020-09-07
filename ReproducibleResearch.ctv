@@ -135,18 +135,6 @@
       </p>
 
    <h2>
-      OpenDocument Format (ODF)
-    </h2>
-      <p>
-        Object Conversion Functions:
-      </p>
-        <ul>
-          <li>
-            <i>statistical models/methods</i>: <pkg>rapport</pkg>
-          </li>
-        </ul>
-
-   <h2>
      Microsoft/LibreOffice Formats
    </h2>
    <p>
