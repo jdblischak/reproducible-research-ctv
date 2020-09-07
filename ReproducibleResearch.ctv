@@ -131,11 +131,21 @@
         </ul>
 
    <h2>
-    Microsoft Formats
+     Microsoft/LibreOffice Formats
    </h2>
    <p>
-    <pkg>R2wd</pkg> (windows only) can also create Word documents from scratch and <pkg>R2PPT</pkg> (also windows only) can create PowerPoint slides. The <pkg>rtf</pkg> package does the same for Rich Text Format documents.
+     The <pkg>officer</pkg> (formerly ReporteRs and before that R2DOCX) package can create <tt>docx</tt> and <tt>pptx</tt> files.
+     <pkg>R2wd</pkg> (windows only) can also create Word documents from scratch and <pkg>R2PPT</pkg> (also windows only) can create PowerPoint slides. The <pkg>rtf</pkg> package does the same for Rich Text Format documents.
+     The <pkg>openxlsx</pkg> package creates <tt>xlsx</tt> files.
    </p>
+   <p>
+     Object Conversion Functions:
+   </p>
+   <ul>
+     <li>
+       <i>graphics</i>: <pkg>mschart</pkg>
+     </li>
+   </ul>
 
     <h1>Pipeline Toolkits</h1>
 
@@ -258,7 +268,10 @@
     <pkg>markdown</pkg>
     <pkg>memisc</pkg>
     <pkg>miniCRAN</pkg>
+    <pkg>mschart</pkg>
     <pkg>NMOF</pkg>
+    <pkg>officer</pkg>
+    <pkg>openxlsx</pkg>
     <pkg>orderly</pkg>
     <pkg>packrat</pkg>
     <pkg>pander</pkg>
