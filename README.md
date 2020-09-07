@@ -16,6 +16,7 @@ Suggestions are welcome!
 * [Anna Krystalli](https://github.com/annakrystalli)
 * [Ben Marwick](https://github.com/benmarwick)
 * [Daniel Nüst](https://github.com/nuest)
+* [David Gohel](https://github.com/davidgohel)
 * [Richie Cotton](https://github.com/richierocks)
 * [Tom Wenseleers](https://github.com/tomwenseleers)
 * [Will Landau](https://github.com/wlandau)

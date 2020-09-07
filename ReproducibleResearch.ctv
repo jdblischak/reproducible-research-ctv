@@ -78,7 +78,7 @@
             <i>summary tables/statistics</i>: <pkg>stargazer</pkg>
           </li>
           <li>
-            <i>tables/cross-tabulations</i>: <pkg>DT</pkg>, <pkg>formattable</pkg>, <pkg>htmlTable</pkg>, <pkg>HTMLUtils</pkg>, <pkg>hwriter</pkg>, <pkg>knitr</pkg>, <pkg>lazyWeave</pkg>, <pkg>SortableHTMLTables</pkg>, <pkg>texreg</pkg>, <pkg>ztable</pkg>
+            <i>tables/cross-tabulations</i>: <pkg>DT</pkg>, <pkg>flextable</pkg>, <pkg>formattable</pkg>, <pkg>htmlTable</pkg>, <pkg>HTMLUtils</pkg>, <pkg>hwriter</pkg>, <pkg>knitr</pkg>, <pkg>lazyWeave</pkg>, <pkg>SortableHTMLTables</pkg>, <pkg>texreg</pkg>, <pkg>ztable</pkg>
           </li>
           <li>
             <i>statistical models/methods</i>: <pkg>rapport</pkg>, <pkg>stargazer</pkg>, <pkg>xtable</pkg>
@@ -142,6 +142,9 @@
      Object Conversion Functions:
    </p>
    <ul>
+     <li>
+       <i>tables/cross-tabulations</i>: <pkg>flextable</pkg>
+     </li>
      <li>
        <i>graphics</i>: <pkg>mschart</pkg>
      </li>
@@ -243,6 +246,7 @@
     <pkg>DT</pkg>
     <pkg>exams</pkg>
     <pkg>exreport</pkg>
+    <pkg>flextable</pkg>
     <pkg>formatR</pkg>
     <pkg>formattable</pkg>
     <pkg>here</pkg>
