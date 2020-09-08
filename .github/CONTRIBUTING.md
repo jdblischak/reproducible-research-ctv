@@ -9,7 +9,7 @@ Thanks for your interest in contributing to the [CRAN Task View on Reproducible 
 Before you make any edits, please [open a new Issue][new-issue] to first discuss your proposed changes.
 If you only want to fix a typo, you can skip ahead to the next step.
 
-[new-issue]: https://github.com/jdblischak/Reproducible-Research-ctv/issues/new
+[new-issue]: https://github.com/jdblischak/Reproducible-Research-ctv/issues/new?template=package_suggestion.md
 
 ## Step 1: Edit the CTV file
 

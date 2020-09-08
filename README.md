@@ -17,7 +17,7 @@ The Task View highlights CRAN packages that provide features for the following c
 
 Suggestions are welcome! If you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss.
 
-[new-issue]: https://github.com/jdblischak/Reproducible-Research-ctv/issues/new
+[new-issue]: https://github.com/jdblischak/Reproducible-Research-ctv/issues/new?template=package_suggestion.md
 
 **Resources:**
 
