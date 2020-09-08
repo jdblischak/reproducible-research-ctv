@@ -1,6 +1,32 @@
-This repository contains the `ctv` file for the Reproducible Research CRAN Task View file. The idea is that people can do pull requests to this repository and I can then make commits to the [CTV R-Forge repository](https://r-forge.r-project.org/projects/ctv/). 
+This repository contains the `ctv` file for the [Reproducible Research CRAN Task View][ctv-rr].
+The `ctv` file in this repository is manually synced with the officialy copy in the [CTV SVN repository][ctv-svn] on [R-Forge][].
 
-Suggestions are welcome!
+[ctv-rr]: https://cran.r-project.org/view=ReproducibleResearch
+[ctv-svn]: https://r-forge.r-project.org/projects/ctv/
+[R-Forge]: https://r-forge.r-project.org/
+
+The Task View highlights CRAN packages that provide features for the following categories:
+
+* literate programming
+* pipeline toolkits
+* package reproducibility
+* project workflows
+* code/data formatting tools
+* format convertors
+* object caching
+
+Suggestions are welcome! If you know of a package that fits into one of these categories, but is missing from the Task View, please open an [Issue][new-issue] to discuss.
+
+[new-issue]: https://github.com/jdblischak/Reproducible-Research-ctv/issues/new
+
+**Resources:**
+
+* **Code of Conduct:** Please note that this project is released with a
+[Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By participating in this
+project you agree to abide by its terms.
+* **Contributing:** We welcome suggestions for packages to add. See the
+[Contributing instructions](.github/CONTRIBUTING.md) for details.
+* **License:** CC-BY 4.0. See file [LICENSE](.github/LICENSE) for details.
 
 **Current maintainers:**
 
