@@ -12,7 +12,11 @@ htmlFile <- "ReproducibleResearch.html"
 
 message("Checking packages...")
 packages <- check_ctv_packages(ctvFile)
-stopifnot(lengths(packages) == 0)
+packagesIssues <- lengths(packages) != 0
+if (any(packagesIssues)) {
+  warning("The packages need updated", call. = FALSE, immediate. = TRUE)
+  print(packages[packagesIssues])
+}
 
 message("Checking URLs...")
 xml <- xmlParse(ctvFile)
@@ -21,7 +25,7 @@ stopifnot(url.exists(urls))
 
 message("Checking date...")
 today <- Sys.Date()
-timezone <- Sys.timezone()
+suppressWarnings(timezone <- Sys.timezone())
 versionNode <- getNodeSet(xml, "//version")
 versionValue <- xmlValue(versionNode)
 version <- as.Date(versionValue)
