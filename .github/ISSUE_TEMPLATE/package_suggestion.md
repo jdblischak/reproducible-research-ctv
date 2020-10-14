@@ -7,8 +7,8 @@ about: Suggest a package to be included in the Task View
 
 
 
-2. Please provide the link to CRAN typing the package name (case-sensitive) to
-the end of the URL below:
+2. Please provide the link to CRAN by appending the package name
+(case-sensitive) to the end of the URL below:
 
 https://cran.r-project.org/package=
 
