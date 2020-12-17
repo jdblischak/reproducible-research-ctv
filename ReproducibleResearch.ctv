@@ -149,6 +149,7 @@
      The <pkg>officer</pkg> (formerly ReporteRs and before that R2DOCX) package can create <tt>docx</tt> and <tt>pptx</tt> files.
      <pkg>R2wd</pkg> (windows only) can also create Word documents from scratch and <pkg>R2PPT</pkg> (also windows only) can create PowerPoint slides. The <pkg>rtf</pkg> package does the same for Rich Text Format documents.
      The <pkg>openxlsx</pkg> package creates <tt>xlsx</tt> files.
+     The <pkg>readODS</pkg> package can read and write Open Document Spreadsheets.
    </p>
    <p>
      Object Conversion Functions:
@@ -304,6 +305,7 @@
     <pkg>R2wd</pkg>
     <pkg>rapport</pkg>
     <pkg>rbundler</pkg>
+    <pkg>readODS</pkg>
     <pkg>RefManageR</pkg>
     <pkg>renv</pkg>
     <pkg>repo</pkg>
