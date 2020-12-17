@@ -21,7 +21,11 @@ if (any(packagesIssues)) {
 message("Checking URLs...")
 xml <- xmlParse(ctvFile)
 urls = xpathSApply(xml, "//a[@href]", xmlGetAttr, "href")
-stopifnot(url.exists(urls))
+urlsExist <- url.exists(urls)
+if (!all(urlsExist)) {
+  warning("Found broken URLs", call. = FALSE, immediate. = TRUE)
+  cat(urls[!urlsExist], sep = "\n")
+}
 
 message("Checking date...")
 today <- Sys.Date()
