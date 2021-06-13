@@ -29,6 +29,9 @@ Also note that Achim aggressively removes packages that were archived on CRAN.
 You'll want to check to see if the authors of the archived package were able to
 fix the issues in the meantime.
 
+You can automatically sync any changes made in the SVN repo to the Git repo by
+running `bash pull-from-svn.sh`.
+
 ## Using SVN
 
 If you are new to SVN, check out the chapter [Basic Work
