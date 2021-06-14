@@ -3,7 +3,7 @@
   <name>ReproducibleResearch</name>
   <topic>Reproducible Research</topic>
   <maintainer email="jdblischak@gmail.com">John Blischak, Alison Hill</maintainer>
-  <version>2021-05-17</version>
+  <version>2021-06-13</version>
   <info>
     <p>
       The goal of reproducible research is to tie specific instructions to data
