@@ -151,6 +151,7 @@
           <pkg>DT</pkg>,
           <pkg>flextable</pkg>,
           <pkg>formattable</pkg>,
+          <pkg>gt</pkg>,
           <pkg>htmlTable</pkg>,
           <pkg>HTMLUtils</pkg>,
           <pkg>huxtable</pkg>,
@@ -464,6 +465,7 @@
     <pkg>here</pkg>
     <pkg>highlight</pkg>
     <pkg>highr</pkg>
+    <pkg>gt</pkg>
     <pkg priority="core">Hmisc</pkg>
     <pkg>htmlTable</pkg>
     <pkg>htmltools</pkg>
