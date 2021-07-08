@@ -3,7 +3,7 @@
   <name>ReproducibleResearch</name>
   <topic>Reproducible Research</topic>
   <maintainer email="jdblischak@gmail.com">John Blischak, Alison Hill</maintainer>
-  <version>2021-06-15</version>
+  <version>2021-07-08</version>
   <info>
     <p>
       The goal of reproducible research is to tie specific instructions to data
@@ -72,6 +72,7 @@
       <li>
         <i>tables/cross-tabulations</i>:
           <pkg>Hmisc</pkg>,
+          <pkg>huxtable</pkg>,
           <pkg>lazyWeave</pkg>,
           <pkg>knitLatex</pkg>,
           <pkg>knitr</pkg>,
@@ -152,6 +153,7 @@
           <pkg>formattable</pkg>,
           <pkg>htmlTable</pkg>,
           <pkg>HTMLUtils</pkg>,
+          <pkg>huxtable</pkg>,
           <pkg>hwriter</pkg>,
           <pkg>knitr</pkg>,
           <pkg>lazyWeave</pkg>,
@@ -234,7 +236,8 @@
     <ul>
       <li>
         <i>tables/cross-tabulations</i>:
-          <pkg>flextable</pkg>
+          <pkg>flextable</pkg>,
+          <pkg>huxtable</pkg>
       </li>
       <li>
         <i>graphics</i>:
@@ -466,6 +469,7 @@
     <pkg>htmltools</pkg>
     <pkg>HTMLUtils</pkg>
     <pkg>humanFormat</pkg>
+    <pkg>huxtable</pkg>
     <pkg>hwriter</pkg>
     <pkg>latex2exp</pkg>
     <pkg>lazyWeave</pkg>
