@@ -239,6 +239,7 @@
         <i>tables/cross-tabulations</i>:
           <pkg>flextable</pkg>,
           <pkg>huxtable</pkg>,
+          <pkg>pharmaRTF</pkg>,
           <pkg>r2rtf</pkg>
       </li>
       <li>
@@ -495,6 +496,7 @@
     <pkg>packrat</pkg>
     <pkg>pander</pkg>
     <pkg>papeR</pkg>
+    <pkg>pharmaRTF</pkg>
     <pkg>prettyunits</pkg>
     <pkg>prodigenr</pkg>
     <pkg>projects</pkg>
