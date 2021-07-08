@@ -238,7 +238,8 @@
       <li>
         <i>tables/cross-tabulations</i>:
           <pkg>flextable</pkg>,
-          <pkg>huxtable</pkg>
+          <pkg>huxtable</pkg>,
+          <pkg>r2rtf</pkg>
       </li>
       <li>
         <i>graphics</i>:
@@ -503,6 +504,7 @@
     <pkg>R.rsp</pkg>
     <pkg priority="core">R2HTML</pkg>
     <pkg>R2PPT</pkg>
+    <pkg>r2rtf</pkg>
     <pkg>R2wd</pkg>
     <pkg>rapport</pkg>
     <pkg>rbundler</pkg>
