@@ -457,8 +457,10 @@
     </ul>
     <h1>Formatting Tools</h1>
     <p>
-      <pkg>formatR</pkg>, <pkg>highlight</pkg>, and <pkg>highr</pkg> can be used
-      to color and/or format R code.
+      <pkg>formatR</pkg> and <pkg>styler</pkg> can be used to format R code.
+    </p>
+    <p>
+      <pkg>highlight</pkg> and <pkg>highr</pkg> can be used to color R code.
     </p>
     <p>
       Packages <pkg>humanFormat</pkg>, <pkg>lubridate</pkg>,
@@ -569,6 +571,7 @@
     <pkg>sparktex</pkg>
     <pkg>stargazer</pkg>
     <pkg>storr</pkg>
+    <pkg>styler</pkg>
     <pkg>suRtex</pkg>
     <pkg>switchr</pkg>
     <pkg>tables</pkg>
