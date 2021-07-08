@@ -246,6 +246,10 @@
         <i>graphics</i>:
           <pkg>mschart</pkg>
       </li>
+      <li>
+        <i>others</i>:
+          <pkg>unrtf</pkg>
+      </li>
     </ul>
     <h1>Pipeline Toolkits</h1>
     <p>
@@ -535,6 +539,7 @@
     <pkg>trackr</pkg>
     <pkg>tth</pkg>
     <pkg>tufterhandout</pkg>
+    <pkg>unrtf</pkg>
     <pkg>usethis</pkg>
     <pkg>worcs</pkg>
     <pkg>workflowr</pkg>
