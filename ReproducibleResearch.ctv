@@ -446,8 +446,8 @@
     </p>
     <p>
       Non-literate programming packages to facilitating caching/archiving are
-      <pkg>R.cache</pkg>, <pkg>archivist</pkg>, <pkg>storr</pkg>, and
-      <pkg>trackr</pkg>.
+      <pkg>archivist</pkg>, <pkg>R.cache</pkg>, <pkg>reproducible</pkg>,
+      <pkg>storr</pkg>, and <pkg>trackr</pkg>.
     </p>
   </info>
   <packagelist>
@@ -522,6 +522,7 @@
     <pkg>reportfactory</pkg>
     <pkg>reporttools</pkg>
     <pkg>represtools</pkg>
+    <pkg>reproducible</pkg>
     <pkg>rmarkdown</pkg>
     <pkg priority="core">rms</pkg>
     <pkg>rprintf</pkg>
