@@ -46,3 +46,4 @@ project you agree to abide by its terms.
 * [Richie Cotton](https://github.com/richierocks)
 * [Tom Wenseleers](https://github.com/tomwenseleers)
 * [Will Landau](https://github.com/wlandau)
+* [Yilong Zhang](https://github.com/elong0527)
