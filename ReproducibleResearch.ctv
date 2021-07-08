@@ -326,6 +326,12 @@
         as required.
       </li>
       <li>
+        <pkg>Require</pkg>: A single key function, 'Require' that wraps
+        'install.packages', 'remotes::install_github',
+        'versions::install.versions', and 'base::require' that allows for
+        reproducible workflows.
+      </li>
+      <li>
         <pkg>switchr</pkg>: Provides an abstraction for managing, installing,
         and switching between sets of installed R packages.
       </li>
@@ -555,6 +561,7 @@
     <pkg>reporttools</pkg>
     <pkg>represtools</pkg>
     <pkg>reproducible</pkg>
+    <pkg>Require</pkg>
     <pkg>rmarkdown</pkg>
     <pkg priority="core">rms</pkg>
     <pkg>rprintf</pkg>
