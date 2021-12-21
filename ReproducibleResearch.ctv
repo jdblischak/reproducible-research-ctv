@@ -3,7 +3,7 @@
   <name>ReproducibleResearch</name>
   <topic>Reproducible Research</topic>
   <maintainer email="jdblischak@gmail.com">John Blischak, Alison Hill</maintainer>
-  <version>2021-07-08</version>
+  <version>2021-12-20</version>
   <info>
     <p>
       The goal of reproducible research is to tie specific instructions to data
@@ -276,6 +276,11 @@
         cluster.
       </li>
       <li>
+        <pkg>makepipe</pkg>: A suite of tools for transforming an existing
+        workflow into a self-documenting pipeline with very minimal upfront
+        costs.
+      </li>
+      <li>
         <pkg>repo</pkg>: A data manager meant to avoid manual storage/retrieval
         of data to/from the file system.
       </li>
@@ -528,6 +533,7 @@
     <pkg>knitLatex</pkg>
     <pkg priority="core">knitr</pkg>
     <pkg>madrat</pkg>
+    <pkg>makepipe</pkg>
     <pkg>makeProject</pkg>
     <pkg>markdown</pkg>
     <pkg>memisc</pkg>
