@@ -1,3 +1,12 @@
+# Archived
+
+The official source of the CRAN Task Views has migrated from R-Forge to GitHub.
+Thus this repository that mirrored the copy in the official SVN repo is no longer required.
+Please go to [cran-task-views/ReproducibleResearch](https://github.com/cran-task-views/ReproducibleResearch)
+to open an Issue or submit a Pull Request.
+
+---
+
 This repository contains the `ctv` file for the [Reproducible Research CRAN Task View][ctv-rr].
 The `ctv` file in this repository is manually synced with the officialy copy in the [CTV SVN repository][ctv-svn] on [R-Forge][].
 
